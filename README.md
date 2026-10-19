@@ -111,7 +111,7 @@ are linux/amd64 for now.
 To move an image to a newer source commit, change its `*_REV` default in
 the Dockerfile and open a pull request.
 
-Documentation: **https://wxylib.github.io/docs/**, one place for what works, how-tos,
+Documentation: **https://wxylib.org/docs/**, one place for what works, how-tos,
 explainers, the design documents and how to help.
 
 License: MIT OR Apache-2.0.
