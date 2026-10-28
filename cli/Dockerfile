@@ -3,7 +3,7 @@
 #   docker build -t wxy cli
 #   docker run --rm -v "$PWD":/data wxy --help
 
-ARG CORE_REV=cb17137109b1fc1be2fbeda9a430484530bdd64e
+ARG CORE_REV=2752c6b9f37c4c114d9356e8411a9235e89e3902
 
 FROM rust:1-bookworm AS build
 ARG CORE_REV
