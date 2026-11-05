@@ -4,7 +4,7 @@
 #   docker build -t wxy-py py
 #   docker run --rm wxy-py python -c "import wxy; print(wxy.affine((0, 10, 0, 5), (10, 5)))"
 
-ARG PY_REV=d55f1bf68b997cc061db47948645a752a826e834
+ARG PY_REV=0018cdc63dff70697501c42e0f83644aeeb81d08
 ARG PYTHON_VERSION=3.13
 
 FROM python:${PYTHON_VERSION}-bookworm AS build
