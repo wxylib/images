@@ -4,7 +4,7 @@
 #   docker build -t wxy-r r
 #   docker run --rm wxy-r Rscript -e "wxy::wxy_affine(c(0, 10, 0, 5), c(10, 5))"
 
-ARG R_REV=0b479dd4b94b83ad9c0abc389c8c421aa16a20f4
+ARG R_REV=24cb3ccb929646fd9e887ce8a787d738235bf7f0
 ARG R_VERSION=4.5
 
 FROM rocker/r-ver:${R_VERSION} AS build
